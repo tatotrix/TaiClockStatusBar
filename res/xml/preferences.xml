@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditTextPreference
+        android:dialogTitle="Texto ao lado do Relógio"
+        android:key="pref_texto_relogio"
+        android:summary="@string/textoPadrao"
+        android:title="Texto exibido ao lado do relógio" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="pref_hide"
+        android:summary="Gira o relógio a 180 graus (Inverte)"
+        android:title="Inverter relógio" />
+    
+    <PreferenceScreen 
+            android:key="pref_cat_statusbar_colors"
+            android:title="Mudar a cor do relógio">
+
+            <net.margaritov.preference.colorpicker.ColorPickerPreference 
+                android:key="pref_color"
+        		android:title="Mudar a cor do relógio"
+                android:summary="Mudar a cor do Relógio para ele ficar mais bonito"
+                 />
+
+        </PreferenceScreen>
+        
+   
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tai Clock Status Bar</string>
+    <string name="textoPadrao">Relogio Customizado (Custom Clock):</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Paleta de Cores (Color Piker)</string>
+    <string name="press_color_to_apply">Defina a cor (Press to apply)</string>
+    <string name="title_activity_main">Tai Clock Status Bar (By: Taiguara Duarte)</string>
+
+</resources>
